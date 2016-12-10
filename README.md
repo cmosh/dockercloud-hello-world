@@ -1,7 +1,6 @@
 hello-world
 ===========
 
-[![Deploy to Docker Cloud](https://files.cloud.docker.com/images/deploy-to-dockercloud.svg)](https://cloud.docker.com/stack/deploy/)
 
 Sample docker image to test docker deployments
 
@@ -13,12 +12,6 @@ Build and run using Docker Compose:
 	$ cd dockercloud-hello-world
 	$ docker-compose up
 
-
-## Deploying to Docker Cloud
-
-[Install the Docker Cloud CLI](https://docs.docker.com/docker-cloud/tutorials/installing-cli/)
-
-	$ docker login
-	$ docker-cloud stack up
+Can't deploy this to docker cloud, meant for armvh based servers
 
 Hello world!
