@@ -1,4 +1,4 @@
-FROM alpine:3.4
+FROM scaleway/alpine:armhf-3.3.0
 
 RUN apk --update add nginx php5-fpm && \
     mkdir -p /var/log/nginx && \
