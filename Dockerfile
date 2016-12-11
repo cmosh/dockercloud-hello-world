@@ -1,4 +1,4 @@
-FROM cmosh/alpine-arm:3.3
+FROM cmosh/alpine-arm:3.4
 
 ADD www /www
 ADD nginx.conf /etc/nginx/
